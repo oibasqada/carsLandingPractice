@@ -117,7 +117,7 @@ header {
     color: #fff;
     padding: 15px;
     position: absolute;
-    bottom: -121px;
+    bottom: -145px;
 }
 
 .box:hover .overlay {
@@ -421,9 +421,11 @@ header {
     height: 50px;
     margin: 0 0 10px;
     padding: 17px 15px 15px;
+    color: #fff;
 }
 
 .sub-btn {
+    cursor: pointer;
     background-color: #232323;
     border: none;
     border-radius: 3px;
@@ -431,5 +433,29 @@ header {
     color: #fff;
     font-size: 14px;
     font-weight: 700;
+    line-height: 18.12px;
+}
+
+.sub-btn:hover {
+    background-color: #000000;
+    transition: 0.5s;
+    color: orangered;
+}
+
+/* footer */
+
+footer {
+    background-color: #000;
+    padding: 38px 0;
+}
+
+.footer-conts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-rights {
+    color: #fff;
+    font-size: 14px;
     line-height: 18.12px;
 }
