@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.bimap-overall-spacing {
+    padding: 30px 0 0;
+}
+
+.row {
+    margin: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    padding: 15px;
+    width: 33.33%;
+}
+
+.col-6 {
+    padding: 15px;
+    width: 50%;
+}
+
+.col-8 {
+    padding: 15px;
+    width: 66.66%;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+}
+
+.bitmap-0 {
+    background: url(/assets/Bitmap.png) center center/cover no-repeat;
+    height: 560px;
+}
+
+.bitmap-1 {
+    background: url(/assets/Bitmap\ -1.png) center center/cover no-repeat;
+    height: 265px;
+}
+
+.bitmap-2 {
+    background: url(/assets/Bitmap\ -2.png) center center/cover no-repeat;
+    height: 265px;
+}
+
+.bitmap-3 {
+    background: url(/assets/Bitmap\ -3.png) center center/cover no-repeat;
+    height: 265px;
+}
+
+.bitmap-4 {
+    background: url(/assets/Bitmap\ -4.png) center center/cover no-repeat;
+    height: 265px;
+}
+
+.overlay {
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    bottom: -121px;
+}
+
+.box:hover .overlay {
+    transition: 0.6s;
+    bottom: 0;
+}
+
+.overlay p {
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 18.12px;
+}
+
+.overlay h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.btn-vehicle {
+    padding: 30px 22px;
+    position: absolute;
+    top: -100px;
+}
+
+button {
+    font-size: 12px;
+    line-height: 15.53px;
+    color: #fff;
+    padding: 8px 19px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4A90E2;
+}
+
+.box:hover .btn-vehicle {
+    transition: 0.6s;
+    top: 0;
+}
